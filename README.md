@@ -9,5 +9,5 @@ Logistic Regression<br>
 Decision Tree<br>
 Random Forest<br>
 Support Vector Machine<br>
-K-NN
+K-NN <br>
 Naive Bayes
