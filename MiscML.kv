@@ -1,13 +1,36 @@
+WindowManager:
+    MainWindow:
+    SecondWindow:
 
-<MiscML>:        
+<MainWindow>:
+    name: "main"
+
     Label:
         font_size: 40
-        center_x: root.width * 1 / 2
-        top: root.top - 200
+        center_x: root.width * 1/16
+        top: root.top - 350
         text: "MiscML"
         
     Label:
         font_size: 35
-        center_x: root.width * 1 / 2
-        top: root.top - 250
+        center_x: root.width * 1 / 16
+        top: root.top - 450
         text: "Machine Learning GUI for Beginners"
+
+        Button:
+            text: "Submit"
+            top: root.top - 300
+            center_x: root.width * 1 / 2
+            on_release:
+                app.root.current = "second"
+                root.manager.transition.direction = "left"
+
+
+<SecondWindow>:
+    name: "second"
+
+    Button:
+        text: "Go Back"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
