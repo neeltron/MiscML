@@ -13,3 +13,4 @@ For the starters, we're planning to have the following algorithms in MiscML:
   <li>K-NN</li>
   <li>Naive Bayes</li>
 </ul>
+Git verify
