@@ -4,10 +4,12 @@ MiscML is a python based GUI tool, that allows beginners to perform Machine Lear
 
 For the starters, we're planning to have the following algorithms in MiscML:
 
-Linear Regression <br>
-Logistic Regression<br>
-Decision Tree<br>
-Random Forest<br>
-Support Vector Machine<br>
-K-NN <br>
-Naive Bayes
+<ul>
+  <li>Linear Regression </li>
+  <li>Logistic Regression</li>
+  <li>Decision Tree</li>
+  <li>Random Forest</li>
+  <li>Support Vector Machine</li>
+  <li>K-NN</li>
+  <li>Naive Bayes</li>
+</ul>
