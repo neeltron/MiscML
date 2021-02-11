@@ -18,7 +18,6 @@ class WindowManager(ScreenManager):
 
 kv = Builder.load_file("MiscML.kv")
 
-
 class MiscMLApp(App):
     def build(self): 
         return kv
